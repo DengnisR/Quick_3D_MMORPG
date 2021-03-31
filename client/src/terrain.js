@@ -8,10 +8,10 @@ import {texture_splatter} from './texture-splatter.js';
 import {textures} from './textures.js';
 import {utils} from './utils.js';
 
-import {terrain_constants} from '/shared/terrain-constants.mjs';
-import {terrain_height} from '/shared/terrain-height.mjs';
+import {terrain_constants} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/terrain-constants.mjs';
+import {terrain_height} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/terrain-height.mjs';
 
-import {noise} from '/shared/noise.mjs';
+import {noise} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/noise.mjs';
 
 
 export const terrain = (function() {
@@ -40,7 +40,7 @@ export const terrain = (function() {
         './resources/terrain/rock-snow-ice-albedo-1024.png',
         './resources/terrain/snow-packed-albedo-1024.png',
         './resources/terrain/rough-wet-cobble-albedo-1024.png',
-        // './resources/terrain/sandy-rocks1-albedo-1024.png',
+        './resources/terrain/sandy-rocks1-albedo-1024.png',
         './resources/terrain/bark1-albedo.jpg',
       ]);
 
@@ -54,7 +54,7 @@ export const terrain = (function() {
         './resources/terrain/rock-snow-ice-normal-1024.jpg',
         './resources/terrain/snow-packed-normal-1024.jpg',
         './resources/terrain/rough-wet-cobble-normal-1024.jpg',
-        // './resources/terrain/sandy-rocks1-normal-1024.jpg',
+        './resources/terrain/sandy-rocks1-normal-1024.jpg',
         './resources/terrain/bark1-normal3.jpg',
       ]);
 

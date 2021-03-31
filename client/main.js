@@ -972,12 +972,12 @@ class BasicMMODemo {
 
     const loader = new THREE.CubeTextureLoader();
     const texture = loader.load([
-        './resources/posx.jpg',
-        './resources/negx.jpg',
-        './resources/posy.jpg',
-        './resources/negy.jpg',
-        './resources/posz.jpg',
-        './resources/negz.jpg',
+        '../resources/terrain/space-posx.jpg',
+        '../resources/terrain/space-negx.jpg',
+        '../resources/terrain/space-posy.jpg',
+        '../resources/terrain/space-negy.jpg',
+        '../resources/terrain/space-posz.jpg',
+        '../resources/terrain/space-negz.jpg',
     ]);
     texture.encoding = THREE.sRGBEncoding;
     this.scene_.background = texture;

@@ -4,8 +4,8 @@ import {entity} from './entity.js';
 import {render_component} from './render-component.js';
 import {spatial_grid_controller} from './spatial-grid-controller.js';
 
-import {math} from '/shared/math.mjs';
-import {noise} from '/shared/noise.mjs';
+import {math} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/math.mjs';
+import {noise} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/noise.mjs';
 
 
 export const scenery_controller = (() => {

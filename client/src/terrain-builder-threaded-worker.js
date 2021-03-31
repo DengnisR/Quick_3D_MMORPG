@@ -2,9 +2,9 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.mod
 
 import {texture_splatter} from './texture-splatter.js' ;
 
-import {math} from '/shared/math.mjs';
-import {noise} from '/shared/noise.mjs';
-import {terrain_height} from '/shared/terrain-height.mjs' ;
+import {math} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/math.mjs';
+import {noise} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/noise.mjs';
+import {terrain_height} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/terrain-height.mjs' ;
 
 
 class _TerrainBuilderThreadedWorker {

@@ -1,0 +1,4 @@
+# Ignore Files
+
+/server/node_modules
+.nvmrc
