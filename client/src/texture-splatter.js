@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js';
+import * as THREE from '../../server/node_modules/three/build/three.module.js'
 
 
 import {math} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/math.mjs';

@@ -1,10 +1,10 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js';
+import * as THREE from '../../server/node_modules/three/build/three.module.js'
 
 import {entity} from './entity.js';
 
 import {defs} from '../../../../Webstin/Quick_3D_MMORPG/client/shared/defs.mjs';
 
-import {FBXLoader} from 'https://cdn.jsdelivr.net/npm/three@0.124/examples/jsm/loaders/FBXLoader.js';
+import {FBXLoader} from '../../server/node_modules/three/examples/jsm/loaders/FBXLoader.js';
 
 
 export const equip_weapon_component = (() => {

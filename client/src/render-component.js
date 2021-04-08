@@ -1,7 +1,7 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js';
+import * as THREE from '../../server/node_modules/three/build/three.module.js'
 
-import {GLTFLoader} from 'https://cdn.jsdelivr.net/npm/three@0.124/examples/jsm/loaders/GLTFLoader.js';
-import {OBJLoader} from 'https://cdn.jsdelivr.net/npm/three@0.124/examples/jsm/loaders/OBJLoader.js';
+import {GLTFLoader} from '../../server/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import {OBJLoader} from '../../server/node_modules/three/examples/jsm/loaders/OBJLoader.js';
 
 import {entity} from './entity.js';
 
